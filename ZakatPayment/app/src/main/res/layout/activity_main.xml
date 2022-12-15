@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="auto"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8AF4E8"
+        android:orientation="vertical"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip">
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dip"
+            android:background="#C3C1C1"
+            android:bufferType="editable"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:foregroundTint="#3F51B5"
+            android:hint="Weight (g)"
+            android:hyphenationFrequency="full"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:background="#C3C1C1"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Value (g)"
+            android:hyphenationFrequency="full"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnKeep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:elegantTextHeight="true"
+            android:fontFamily="casual"
+            android:text="Keep"
+            android:textColor="#B0C2F6"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnWear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:elegantTextHeight="true"
+            android:fontFamily="casual"
+            android:text="Wear"
+            android:textColor="#B0C2F6"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvTotalValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:background="#F4A6A6"
+            android:fontFamily="casual"
+            android:text="Total Value"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvZakatPayable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:background="#F4A6A6"
+            android:fontFamily="casual"
+            android:text="Zakat Payable"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvTotalZakat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:background="#F4A6A6"
+            android:fontFamily="casual"
+            android:text="Total Zakat"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</RelativeLayout>

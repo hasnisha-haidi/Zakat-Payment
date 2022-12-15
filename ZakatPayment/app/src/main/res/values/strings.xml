@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Zakat Payment</string>
+    <string name="copyright">Copyright &#169; 2022 Nisha</string>
+    <string name="information">This mobile application is designed to calculate zakat payment for gold keeping</string>
+    <string name="group">RCS2515A</string>
+    <string name="student_number">2020476536</string>
+    <string name="code">CS251-NETCENTRIC COMPUTING</string>
+    <string name="name">NURHASNISHA BINTI SHAMSUHAIDI</string>
+    <string name="hyperlink">URL <a href="https://github.com/hasnisha-haidi/Zakat-Payment">https://github.com/hasnisha-haidi/Zakat-Payment</a></string>
+</resources>

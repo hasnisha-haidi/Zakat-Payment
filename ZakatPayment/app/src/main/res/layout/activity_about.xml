@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dip"
+    android:background="#F4A6A6"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="156dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dip"
+        android:fontFamily="casual"
+        android:layout_gravity="center"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textSize="34sp"
+        android:textStyle="bold"
+
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dip"
+        android:fontFamily="serif-monospace"
+        android:text="@string/copyright"
+        android:textColor="#480FCD"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="32dip"
+        android:layout_marginRight="16dip"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/information"
+        android:textAlignment="center"
+        android:textColor="#980505"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dip"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/group"
+        android:textColor="#088A9A"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dip"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/student_number"
+        android:textColor="#088A9A"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dip"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/code"
+        android:textColor="#088A9A"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dip"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text = "NURHASNISHA BINTI SHAMSUHAIDI"
+        android:textColor="#088A9A"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/hyperlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dip"
+        android:layout_marginRight="20dp"
+        android:fontFamily="casual"
+        android:text="@string/hyperlink"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
